@@ -67,11 +67,3 @@
 <script>
 export default {};
 </script>
-<style lang="less">
-.page-container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  padding: 2vh 1vw;
-}
-</style>
