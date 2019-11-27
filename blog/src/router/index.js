@@ -1,11 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import Main from '@/components/main'
-import Index from '@/components/pages/index'
-import Article from '@/components/pages/article'
-import CurriculumVitae from '@/components/pages/curriculumVitae'
-import Template from '@/components/pages/template'
 
 
 Vue.use(Router)
@@ -14,19 +8,20 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: Main,
+      component: resolve => require(['@/components/main'],resolve),
+      redirect: '/curriculumVitae',
       children: [{
         path: '/index',
-        component: Index
+        component: resolve => require(['@/components/pages/index'],resolve)
       },{
         path: '/article/:type',
-        component: Article
+        component: resolve => require(['@/components/pages/article'],resolve)
       },{
         path: '/curriculumVitae',
-        component: CurriculumVitae
+        component: resolve => require(['@/components/pages/curriculumVitae'],resolve)
       },{
         path: '/template',
-        component: Template
+        component: resolve => require(['@/components/pages/template'],resolve)
       }]
     }
   ]
