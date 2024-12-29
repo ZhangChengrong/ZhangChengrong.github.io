@@ -3,8 +3,7 @@
     <b-container class="resume" id="pdfDom">
       <header>
         <div>
-          <h2>张程荣</h2>
-          <h6>求职意向：前端开发工程师</h6>
+          <h2>张程荣  前端开发工程师</h2>
           <h6>简历github：https://zhangchengrong.github.io/#/curriculumVitae</h6>
           <div class="base-info">
             <div class="base-info-item">
@@ -18,7 +17,7 @@
                 <svg class="icon" aria-hidden="true">
                   <use xlink:href="#icon-tubiaozhizuomoban" />
                 </svg>现居:
-                <span>福建厦门</span>
+                <span>浙江杭州临平区</span>
               </div>
             </div>
             <div class="base-info-item">
@@ -71,12 +70,9 @@
         <div class="info-body">
           <div class="info-body-item">
             <div class="info-content">
-              <p>熟练利用vue相关技术进行管理平台和H5开发</p>
-              <p>1.熟悉vue以及vue有关的实用轮子如vue-router,vuex等，并可手动实现简易版vue-router，vuex</p>
-              <p>2.熟悉vue1.0原理并曾手动实现简易MVVM框架</p>
-              <p>3.阅读过vue2.0源码，知晓相对1.0优势，同时能够简要描述虚拟数与diff算法</p>
-              <p>视频相关</p>
-              <p>工作之余帮助朋友开发过浏览器录屏、音视频播放等功能，对该内容有所了解</p>
+              <p>精通vue/angular对项目进行开发与看护</p>
+              <p>精通git日常使用场景命令对项目代码进行管理</p>
+              <p>善于与人沟通、合理安排工作、保证业务质量</p>
             </div>
           </div>
         </div>
@@ -104,27 +100,11 @@
               <p>
                 <strong>项目推广情况</strong> 目前已经在厦门大学、上海外国语大学、云南财经大学等211/985高校成功应用，作为各个地区的标杆院校，同时辐射周边地区的高校。
               </p>
-              <p>
-                <strong>项目开发情况</strong> 项目围绕两个核心模块进行展开：流程引擎模块和表单引擎模块。
-                <br /><strong>流程引擎：</strong>
-                <br />1.配置表单
-                <br />2.用户手动配置流程节点，确定基本流程环节，包括流转节点(开始、结束、条件、事务)，流转条件，流转分支，节点代理委托
-                <br />3.流程确定之后，针对各个节点进行角色配置，包括操作权限，访问权限
-                <br />4.角色确定之后，只需在角色管理进行账号绑定就可为系统用户提供相对应的流程服务。
-                <br /><strong>表单引擎：</strong>
-                <br />备注：有些事务不需要走审批流，只是一个各个角色参与下的信息收集过程，比如学生信息收集
-                <br />1.配置表单
-                <br />2.用户手动配置新增表单角色(与系统角色为一对多关系，与上述流程节点相似)
-                <br />3.为对应的表单角色配置操作权限与访问权限以及该表单角色下所包含的系统角色
-                <br />4.角色确定之后，只需在角色管理进行账号绑定就可为系统用户提供相对应的表单服务。
-                <br /><strong>二者前提：</strong>
-                <br />表单布局与事件触发器：通过用户手动配置表单展示与事件触发器从而实现在流程和表单引擎操作表单的时候可以实现联动。
-              </p>
             </div>
           </div>
           <div class="info-body-item">
             <div class="info-title">
-              <span class="info-title-item">2019.02-{{today}}</span>
+              <span class="info-title-item">2019.02-2020.03</span>
               <span class="info-title-item">厦门易联众-易惠网络科技有限公司</span>
               <span class="info-title-item">前端开发工程师</span>
             </div>
@@ -136,6 +116,29 @@
                 <strong>对账平台、免疫预约管理平台、便民邮寄管理平台等pc端平台</strong>
                 <br /><strong>便民邮寄，预约免疫等公众号H5页面</strong>
                 <br /><strong>榕医通计免小程序</strong>
+              </p>
+            </div>
+          </div>
+          <div class="info-body-item">
+            <div class="info-title">
+              <span class="info-title-item">2020.03-{{today}}</span>
+              <span class="info-title-item">北京外企德科OD-华为杭州研究所</span>
+              <span class="info-title-item">前端开发工程师</span>
+            </div>
+            <div class="info-content">
+              <p>
+                <strong>涉及开发技术栈</strong> vue2/vue3/angular
+              </p>
+              <p>
+                <strong>负责Codehub代码仓研发工作2年半，期间针对codehub代码仓文件模块、MR、变更Diff等关键功能进行重构与调优</strong>
+                <br />
+                <strong>负责云龙流水线交付工作1年左右，期间主要负责云龙特性交付、插件变更、版本归一工作以及</strong>
+                <br />
+                <strong>负责伏羲侧流水线业务1年，主要承担伏羲流水线小组工作需求分析接纳与重要模块看护，保障迭代交付质量与变更</strong>
+                <br />
+                <strong>在负责伏羲项目期间，另外还参与过一些公共事项的维护：</strong>
+                <br /><span>1.fuxi-web下的应用构建工具整改</span>
+                <br /><span>2.fuxi-web下的应用送检整改等</span>
               </p>
             </div>
           </div>
@@ -166,7 +169,7 @@
           <div class="info-body-item">
             <div class="info-content">
               <p>个性乐观开朗，积极热情。</p>
-              <p>工作认真负责，吃苦耐劳，勤奋好学，勇于挑战，不畏艰难。</p>
+              <p>工作认真负责，勇于挑战，不畏艰难。</p>
               <p>业余爱好：羽毛球，唱歌，游戏，偶尔逛逛技术博客以及为qq技术群新人提供技术帮助</p>
             </div>
           </div>
